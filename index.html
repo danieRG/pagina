@@ -9,11 +9,20 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="assets/maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700%7CMerriweather:400,300%7CRaleway:800,600,500,400,300%7CLibre+Baskerville:400,400italic%7CMontserrat%7CRoboto:300%7COpen+Sans:300' rel='stylesheet' type='text/css'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Indexceed</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta property="og:updated_time" content="1397136000"/>
+    <meta property="og:url" content="http://indexceed.com"/>
+    <meta property="og:site_name" content="Indexceed"/>
+    <meta property="og:title" content="Indexceed - Excede tus límites"/>
+    <meta property="og:description" content="Somos una empresa profesional dedicada al desarrollo de software y aplicaciones web de manera responsable diseñadas a medida para cada empresa e incrementar su productividad." />
+    <meta property="og:image" content="http://indexceed.com/demo/testimonials/separator.png">
+    <meta property="og:type" content="blog"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale = 1, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Somos una empresa profesional dedicada al desarrollo de software y aplicaciones web de manera responsable diseñadas a medida para cada empresa e incrementar su productividad." />
+
+
     <meta name="robots" content="index, follow" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -36,6 +45,8 @@
         <script src="./js/html5shiv.js"></script>
         <script src="./js/respond.js"></script>
     <![endif]-->
+
+
 </head>
 <body>
     <div id="ip-container" class="ip-container slider-parallax">
@@ -836,14 +847,13 @@
                         </div>
                         <div class="jt_row jt_row-fluid row overlap">
                             <div class="col-md-12 jt_col column_container">
-                               <form action="mail.php" method="post" id="contactform" class="contact-form">
-                                   <p class="col"><input type="text" placeholder="Nombre" name="name" class="text name required"></p>
-                                   <p class="col col2"><input type="email" placeholder="Correo" name="email" class="text email required"></p>
-                                   <p><textarea name="message" class="text area required" placeholder="Escribe tu mensaje..."></textarea></p>
-                                   <div class="formSent"><strong>Tu mensaje fue enviado!</strong> Gracias por contactarnos.</div>
-                                   <p class="clearfix"><input type="submit" value="Enviar" class="button submit next"></p>
-
-                               </form>
+                                <form action="mail.php" method="post" id="contact-project" class="contact-form">
+               <p class="col"><input type="text" placeholder="Nombre" name="name" class="text required name"></p>
+               <p class="col col2"><input type="email" placeholder="Correo" name="email" class="text required email"></p>
+               <p><textarea name="message" class="text required area" placeholder="Escribe un mensaje"></textarea></p>
+               <p class="clearfix"><input type="submit" value="Contactar" class="button submit inverse next"></p>
+               <div class="formSent"><strong>Tu mensaje ha sido enviado!</strong> Gracias por contactarnos.</div>
+           </form>
                             </div>
                         </div>
                     </div>
